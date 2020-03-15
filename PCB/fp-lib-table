@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name ALPS_Joystick)(type KiCad)(uri ${KIPRJMOD}/ALPS_Joystick.pretty)(options "")(descr ""))
+  (lib (name DevBoardFootprints)(type KiCad)(uri ${KIPRJMOD}/DevBoardFootprints.pretty)(options "")(descr ""))
+)

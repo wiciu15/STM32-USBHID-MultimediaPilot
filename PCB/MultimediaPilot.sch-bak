@@ -1,0 +1,154 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L DevBoardSymbol:STM32F103BluePill U1
+U 1 1 5E6E10DB
+P 3050 2500
+F 0 "U1" H 3050 2881 79  0000 C CNN
+F 1 "STM32F103BluePill" H 3050 2746 79  0000 C CNN
+F 2 "DevBoardFootprints:STM32F103BluePill" H 3050 2500 79  0001 C CNN
+F 3 "" H 3050 2500 79  0001 C CNN
+	1    3050 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L ALPS_Joystick:RKJXT1F42001 S1
+U 1 1 5E6E8BD5
+P 6100 2950
+F 0 "S1" H 6100 3565 50  0000 C CNN
+F 1 "RKJXT1F42001" H 6100 3474 50  0000 C CNN
+F 2 "ALPS_Joystick:RKJXT1F42001" H 6100 3700 50  0001 C CNN
+F 3 "https://tech.alpsalpine.com/prod/e/html/multicontrol/switch/rkjxt/rkjxt1f42001.html" H 6100 2950 50  0001 C CNN
+	1    6100 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 2600 4150 2600
+Wire Wire Line
+	4150 2600 4150 3650
+Wire Wire Line
+	4150 3650 3550 3650
+Wire Wire Line
+	5650 2700 4250 2700
+Wire Wire Line
+	4250 2700 4250 3550
+Wire Wire Line
+	4250 3550 3550 3550
+Wire Wire Line
+	5650 2800 4450 2800
+Wire Wire Line
+	4450 2800 4450 3850
+Wire Wire Line
+	5650 2900 4550 2900
+Wire Wire Line
+	4550 2900 4550 3750
+Wire Wire Line
+	4550 3750 3550 3750
+Wire Wire Line
+	3550 3850 4450 3850
+Wire Wire Line
+	5650 3100 4850 3100
+Wire Wire Line
+	4850 3100 4850 3950
+Wire Wire Line
+	4850 3950 3550 3950
+$Comp
+L power:GND #PWR04
+U 1 1 5E6ECD57
+P 6100 3850
+F 0 "#PWR04" H 6100 3600 50  0001 C CNN
+F 1 "GND" H 6105 3677 50  0000 C CNN
+F 2 "" H 6100 3850 50  0001 C CNN
+F 3 "" H 6100 3850 50  0001 C CNN
+	1    6100 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 5E6EDF77
+P 5650 3350
+F 0 "#PWR03" H 5650 3100 50  0001 C CNN
+F 1 "GND" H 5655 3177 50  0000 C CNN
+F 2 "" H 5650 3350 50  0001 C CNN
+F 3 "" H 5650 3350 50  0001 C CNN
+	1    5650 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 5E6EE56F
+P 6550 3250
+F 0 "#PWR02" H 6550 3000 50  0001 C CNN
+F 1 "GND" H 6555 3077 50  0000 C CNN
+F 2 "" H 6550 3250 50  0001 C CNN
+F 3 "" H 6550 3250 50  0001 C CNN
+	1    6550 3250
+	1    0    0    -1  
+$EndComp
+Text GLabel 6550 2950 2    50   Input ~ 0
+ENC_A
+Text GLabel 6550 3050 2    50   Input ~ 0
+ENC_B
+Text GLabel 2550 2850 0    50   Input ~ 0
+ENC_A
+Text GLabel 2550 2950 0    50   Input ~ 0
+ENC_B
+$Comp
+L power:GND #PWR01
+U 1 1 5E6EF2E9
+P 3750 2450
+F 0 "#PWR01" H 3750 2200 50  0001 C CNN
+F 1 "GND" H 3755 2277 50  0000 C CNN
+F 2 "" H 3750 2450 50  0001 C CNN
+F 3 "" H 3750 2450 50  0001 C CNN
+	1    3750 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 2450 3750 2450
+NoConn ~ 2550 2450
+NoConn ~ 2550 2550
+NoConn ~ 2550 2650
+NoConn ~ 2550 2750
+NoConn ~ 2550 3050
+NoConn ~ 2550 3150
+NoConn ~ 2550 3250
+NoConn ~ 2550 3350
+NoConn ~ 2550 3450
+NoConn ~ 2550 3550
+NoConn ~ 2550 3650
+NoConn ~ 2550 3750
+NoConn ~ 2550 3850
+NoConn ~ 2550 3950
+NoConn ~ 2550 4050
+NoConn ~ 2550 4150
+NoConn ~ 2550 4250
+NoConn ~ 2550 4350
+NoConn ~ 3550 4350
+NoConn ~ 3550 4250
+NoConn ~ 3550 4150
+NoConn ~ 3550 4050
+NoConn ~ 3550 3450
+NoConn ~ 3550 3350
+NoConn ~ 3550 3250
+NoConn ~ 3550 3150
+NoConn ~ 3550 3050
+NoConn ~ 3550 2950
+NoConn ~ 3550 2850
+NoConn ~ 3550 2750
+NoConn ~ 3550 2650
+NoConn ~ 3550 2550
+$EndSCHEMATC

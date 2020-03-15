@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name DevBoardSymbol)(type Legacy)(uri ${KIPRJMOD}/DevBoardSymbol.lib)(options "")(descr ""))
+  (lib (name ALPS_Joystick)(type Legacy)(uri ${KIPRJMOD}/ALPS_Joystick.lib)(options "")(descr ""))
+)
