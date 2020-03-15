@@ -1,5 +1,6 @@
 # STM32-USBHID-MultimediaPilot
 STM32 based USB device with a joystick to control your media player on PC.
+It's a simple USB keyboard with only multimedia keys, and joystick with encoder instead of keys.
 
 Main components are:
 - Stm32F103 aka 'blue pill' development board
